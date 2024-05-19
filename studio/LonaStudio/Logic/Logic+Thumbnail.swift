@@ -9,6 +9,7 @@
 import Defaults
 import Foundation
 import Logic
+import AppKit
 
 extension LogicViewController {
 

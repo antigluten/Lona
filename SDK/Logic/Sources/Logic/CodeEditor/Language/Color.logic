@@ -1,0 +1,689 @@
+{
+  "type": "program",
+  "data": {
+    "id": "53b18bb3-2d8b-40c4-b35a-316ebed52675",
+    "block": [
+      {
+        "type": "declaration",
+        "data": {
+          "id": "4214473a-8b53-498a-9cb9-f31e8ef31753",
+          "content": {
+            "data": {
+              "id": "6a8b9454-6e6a-4111-aa7d-47906f6a25b6",
+              "name": {
+                "id": "5f882d45-f87c-42c6-a1fa-8f934f1c6272",
+                "name": "Prelude"
+              }
+            },
+            "type": "importDeclaration"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "e22a9c3c-f1d7-4897-9b72-6de6ea685004",
+          "content": {
+            "data": {
+              "comment": {
+                "id": "0342a257-2a39-49a3-b8af-626848f8bcef",
+                "string": "# Color\n\nA color value. Colors can be defined using CSS color codes.\n\n## Example\n\nWe might declare a color variable, `ocean` to use throughout our design system to represent the hex code `#69D2E7`:\n\n```logic\n<Declarations>\n  <Variable name=\"ocean\" type=\"Color\" value=\"#69D2E7\"/>\n</Declarations>\n```"
+              },
+              "declarations": [
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "e36b4daf-b0d3-4433-9df7-0852e487d793",
+                        "identifier": {
+                          "id": "d0fab041-07b7-4c45-bc94-581a36b6e444",
+                          "isPlaceholder": false,
+                          "string": "String"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "733e8cc7-5002-4b39-88b6-fbbabb52cffe",
+                    "initializer": {
+                      "data": {
+                        "id": "4aaea658-5755-4891-83fb-cf28df34cfd6",
+                        "literal": {
+                          "data": {
+                            "id": "5369a4dd-b6bc-4f20-84bf-611fba38ae62",
+                            "value": ""
+                          },
+                          "type": "string"
+                        }
+                      },
+                      "type": "literalExpression"
+                    },
+                    "name": {
+                      "id": "b81e9d31-76c8-4663-b933-0aae95609587",
+                      "name": "value"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "id": "5d132dec-ed23-41e4-8bf6-d06d79114635"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "genericParameters": [
+                {
+                  "data": {
+                    "id": "1bf66955-f88c-4e1c-bdb0-8f77d890c107"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "id": "d97db39c-3f14-4284-8103-9ab82fce8a2b",
+              "name": {
+                "id": "0207a406-d922-4d85-8e61-1504d005e069",
+                "name": "Color"
+              }
+            },
+            "type": "record"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "911295aa-578f-4d05-82e0-80eef606c890",
+          "content": {
+            "data": {
+              "declarations": [
+                {
+                  "data": {
+                    "block": [
+                      {
+                        "data": {
+                          "id": "d567a7be-8c1d-41cf-ba94-554cb57447d9"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "genericParameters": [
+                      {
+                        "data": {
+                          "id": "ee326ae2-f484-4f41-bff0-fefcab117b68"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "id": "c699be96-722e-451b-a974-c099052fc700",
+                    "name": {
+                      "id": "fc2c09c8-1959-4a78-a70d-19439cb3c2f5",
+                      "name": "setHue"
+                    },
+                    "parameters": [
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "96f52616-febb-4d4b-9492-f6779597b6f6",
+                              "identifier": {
+                                "id": "0b8c9312-0c8e-41c4-92e9-ee7f32be87a2",
+                                "isPlaceholder": false,
+                                "string": "Color"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "590d5054-8727-4e93-ba04-f4ba104155a1"
+                            },
+                            "type": "none"
+                          },
+                          "id": "6112e3b1-81ef-4387-95f1-eafcfecc5104",
+                          "localName": {
+                            "id": "7be3460b-f4a6-4284-9002-f1c7275fa8d0",
+                            "name": "color"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "9ae05189-5a76-41be-9f96-d1787c9092f8",
+                              "identifier": {
+                                "id": "c54c103f-d1e2-4179-b1b3-3ede7b834a1a",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "6d481c2f-fd38-40e2-a902-10b9855a1a19"
+                            },
+                            "type": "none"
+                          },
+                          "id": "e4a35c72-8d6c-4ccc-a9fe-edaaab554db3",
+                          "localName": {
+                            "id": "9f1f38d4-b845-43a9-9dd6-e673e9cd172e",
+                            "name": "hue"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "id": "63f668a5-b9e3-4311-aaa8-edc1c8c845b4"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "returnType": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "bb45d649-7ae4-46a6-98b6-5ce3e5ab0eb7",
+                        "identifier": {
+                          "id": "14c10a2a-c8da-4a57-8abb-409824666ad2",
+                          "isPlaceholder": false,
+                          "string": "Color"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    }
+                  },
+                  "type": "function"
+                },
+                {
+                  "data": {
+                    "block": [
+                      {
+                        "data": {
+                          "id": "edd844c0-2497-400b-a395-621aa7381842"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "9bafc4b0-5086-4d23-a9ee-48c7356de97e",
+                      "string": "# Set Saturation\n\nAdjust the saturation of a color."
+                    },
+                    "genericParameters": [
+                      {
+                        "data": {
+                          "id": "3fc19cc7-6d0b-4e33-bb46-2da9f8972466"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "id": "a36cc1a5-443f-46b0-af1a-08626d83ae64",
+                    "name": {
+                      "id": "671f100a-2d77-41e2-8ed5-216f768440b6",
+                      "name": "setSaturation"
+                    },
+                    "parameters": [
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "68e252d3-cc51-4a71-9bb8-dc8f438e64df",
+                              "identifier": {
+                                "id": "698fb50b-9770-4ab7-bf5c-77a3a0da0644",
+                                "isPlaceholder": false,
+                                "string": "Color"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "comment": {
+                            "id": "95b4394c-8edc-426f-af40-251455864551",
+                            "string": "# Color\n\nThe base color to adjust."
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "35fdd193-3927-4830-bdec-b0dd9f82efa2"
+                            },
+                            "type": "none"
+                          },
+                          "id": "0611d6d3-e106-4d7c-b23b-be36ead4cd3f",
+                          "localName": {
+                            "id": "aa7d110c-2e16-4aad-9281-0d4824c42af7",
+                            "name": "color"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "7982f420-3394-442e-bc2f-4fb066c093ad",
+                              "identifier": {
+                                "id": "a7698aab-9dc1-451f-9148-75bcefed9f17",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "ef45101c-e7aa-46b7-9d2a-11c5117722fa"
+                            },
+                            "type": "none"
+                          },
+                          "id": "40e4fc3d-e746-4ce3-9b4f-df3310aa6ad8",
+                          "localName": {
+                            "id": "4c804959-fd24-4785-bc81-4a02fa17237a",
+                            "name": "saturation"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "id": "10b210c7-2ae0-4cb4-a1ce-894380f4a0b7"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "returnType": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "4ff10ef2-c634-47c4-b3a7-38efe480e459",
+                        "identifier": {
+                          "id": "38c84323-f84a-44a5-8c6b-6e00e15f8955",
+                          "isPlaceholder": false,
+                          "string": "Color"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    }
+                  },
+                  "type": "function"
+                },
+                {
+                  "data": {
+                    "block": [
+                      {
+                        "data": {
+                          "id": "7b7534a6-6269-4ad6-9c41-61deb59591d2"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "genericParameters": [
+                      {
+                        "data": {
+                          "id": "945595c6-a75a-4947-bc12-64bf0211df79"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "id": "6aa2282b-d521-4dff-9f2f-217bb6def4df",
+                    "name": {
+                      "id": "32ad2cdc-b42f-4457-b64e-2bf0c5ece1c5",
+                      "name": "setLightness"
+                    },
+                    "parameters": [
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "4fc13af1-e862-4716-9ec1-33484770ec7d",
+                              "identifier": {
+                                "id": "43299889-a5d7-4408-884c-dec5bdee5d93",
+                                "isPlaceholder": false,
+                                "string": "Color"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "ec8e596a-ceb9-4586-9405-1546b14add6f"
+                            },
+                            "type": "none"
+                          },
+                          "id": "3a728328-8293-4a94-97f1-17171077080b",
+                          "localName": {
+                            "id": "4deb3293-674d-41e5-9a40-0d7b9a4b7e53",
+                            "name": "color"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "31e37880-9d22-4200-b1b9-ab3859e62c14",
+                              "identifier": {
+                                "id": "b63d96d8-e00d-4ca7-9215-73d67ee1aace",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "14487b66-dc47-4c59-9978-2373eb295bdf"
+                            },
+                            "type": "none"
+                          },
+                          "id": "2b1723b9-624c-4a9c-b14f-94bde0dfa2d1",
+                          "localName": {
+                            "id": "bc6b3cee-99c9-434d-9f44-8c8c9d78218f",
+                            "name": "lightness"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "id": "1935154a-c390-4452-b072-2c209848533e"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "returnType": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "97bd502b-5f5b-4431-80f5-89da541210c1",
+                        "identifier": {
+                          "id": "78d73a10-c719-4d2c-925a-b055985b31b5",
+                          "isPlaceholder": false,
+                          "string": "Color"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    }
+                  },
+                  "type": "function"
+                },
+                {
+                  "data": {
+                    "block": [
+                      {
+                        "data": {
+                          "id": "71517ea5-ac6d-486a-8cb1-1169d795b8e8"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "genericParameters": [
+                      {
+                        "data": {
+                          "id": "1ac9fe0c-71e9-4e5c-9ae4-0b1d53fb0be8"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "id": "f9b98f7f-5d63-4fb7-90f9-46405624b8dc",
+                    "name": {
+                      "id": "bec18f7b-b20f-4d7d-aed4-825165d3659e",
+                      "name": "fromHSL"
+                    },
+                    "parameters": [
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "6417d250-3b4b-411c-a021-8edc032c74c1",
+                              "identifier": {
+                                "id": "3d1e310c-f20e-446a-ab84-c33311ff3ad1",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "ac8525d6-099f-49e5-b8b4-760f15beeee0"
+                            },
+                            "type": "none"
+                          },
+                          "id": "93401054-fd06-45eb-a83d-840b807ec0b7",
+                          "localName": {
+                            "id": "5a9aebe2-7770-4547-905f-800dab7e281f",
+                            "name": "hue"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "60931f81-cc2b-4051-8801-23149a6a5008",
+                              "identifier": {
+                                "id": "a0325fac-4130-4f0b-8197-2f0775820236",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "81365bec-07d4-48cb-b43e-ce7d8e592d71"
+                            },
+                            "type": "none"
+                          },
+                          "id": "41519fbc-7379-440d-b226-938843c74a24",
+                          "localName": {
+                            "id": "159b1d65-61aa-4cb5-9673-147b929e1e87",
+                            "name": "saturation"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "9252677a-2db7-4c68-bd15-508c8fbf5023",
+                              "identifier": {
+                                "id": "08124875-39cc-478d-9f40-5bb77d534b84",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "00cfaca8-9a4f-4410-b7a9-b54348101877"
+                            },
+                            "type": "none"
+                          },
+                          "id": "45f2df8d-dc2f-4340-a1e1-b95dd0422275",
+                          "localName": {
+                            "id": "4b381229-f10f-4aa0-b97e-1095a3a363e4",
+                            "name": "lightness"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "id": "4c7c6ad3-a7bc-4a68-887f-e15f3365b266"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "returnType": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "4992a419-97cc-48f5-9009-f604d1e74b19",
+                        "identifier": {
+                          "id": "32f6ae2d-11d5-4bd2-8bd6-349adedb28a7",
+                          "isPlaceholder": false,
+                          "string": "Color"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    }
+                  },
+                  "type": "function"
+                },
+                {
+                  "data": {
+                    "block": [
+                      {
+                        "data": {
+                          "id": "3b5f1882-221e-493b-bc1b-b507f5be8746"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "d7f6f440-49ac-45aa-885b-dd2e03c75505",
+                      "string": "# Saturate\n\nAdjust color saturation."
+                    },
+                    "genericParameters": [
+                      {
+                        "data": {
+                          "id": "bf11a39e-a50f-4f0a-a7e2-f0879a866bc0"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "id": "1f3e4828-03ef-4b09-a7e1-a7920f12639c",
+                    "name": {
+                      "id": "dbe41146-2b7b-4ad6-87a2-1493861eaf06",
+                      "name": "saturate"
+                    },
+                    "parameters": [
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "666f189c-f6ec-4099-956a-da0fb3da60cf",
+                              "identifier": {
+                                "id": "8b9a1a14-b807-407f-b5be-0851a16c077e",
+                                "isPlaceholder": false,
+                                "string": "Color"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "comment": {
+                            "id": "60ecd03e-1435-4e28-938e-fb7f96f3349c",
+                            "string": "# Color\n\nThe base color to adjust."
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "2baec523-83df-495d-a702-2f2dba417ead"
+                            },
+                            "type": "none"
+                          },
+                          "id": "9fc51d0f-9bc1-4f0d-97cf-6f89777c69bf",
+                          "localName": {
+                            "id": "0852c291-510b-433f-9016-5ee6dc6e9bb7",
+                            "name": "color"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "annotation": {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "44c01add-5e75-4d36-bf07-2e74e426b830",
+                              "identifier": {
+                                "id": "64597658-241d-4bd6-ab18-9dbb5240f544",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          },
+                          "comment": {
+                            "id": "d1cc6d8b-92dc-455e-ad91-9563372974a6",
+                            "string": "# Factor\n\nThis value will be multiplied with the current saturation value."
+                          },
+                          "defaultValue": {
+                            "data": {
+                              "id": "4794603f-4974-41b9-a320-bef7e70e063d"
+                            },
+                            "type": "none"
+                          },
+                          "id": "7052ad7c-9abc-4701-87d3-38be3b28eca2",
+                          "localName": {
+                            "id": "7ba482bd-fc1e-4f6e-8a2a-0cf609cd741c",
+                            "name": "factor"
+                          }
+                        },
+                        "type": "parameter"
+                      },
+                      {
+                        "data": {
+                          "id": "36bc965c-d884-48f0-9646-3287aef1b1a0"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "returnType": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "abd24790-0d84-4d28-9e52-3db76f40d5a8",
+                        "identifier": {
+                          "id": "bde13f14-d220-4b40-872f-bbb74203adbe",
+                          "isPlaceholder": false,
+                          "string": "Color"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    }
+                  },
+                  "type": "function"
+                },
+                {
+                  "data": {
+                    "id": "e02eafb5-5ee0-493c-932a-9ac0560c27d7"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "id": "241fd785-9259-469b-a67d-5d8df469ffec",
+              "name": {
+                "id": "f0475c6b-b00e-4418-b377-498a5df7463c",
+                "name": "Color"
+              }
+            },
+            "type": "namespace"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "c432301c-2c51-411a-86a7-82e5c9f5cc97",
+          "content": {
+            "data": {
+              "id": "89f570a5-4615-4aea-9a71-dfa237588d53"
+            },
+            "type": "placeholder"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -205,25 +205,25 @@ extension MarkdownViewController {
 
         blocks.forEach { block in
             switch block.content {
-            case .tokens:
-                let logicEditor = block.view as! LogicEditor
-
-                logicEditor.formattingOptions = module.formattingOptions
-
-                logicEditor.suggestionsForNode = { _, node, query in
-                    LogicViewController.suggestionsForNode(rootNode, node, query)
-                }
-
-                // Only show the errors for nodes within this rootNode
-                logicEditor.elementErrors = compiled.errors.filter { logicEditor.rootNode.find(id: $0.uuid) != nil }
-
-                logicEditor.willSelectNode = { rootNode, nodeId in
-                    guard let nodeId = nodeId else { return nil }
-
-                    return rootNode.redirectSelection(nodeId)
-                }
-
-                logicEditor.documentationForSuggestion = LogicViewController.documentationForSuggestion
+//            case .tokens:
+//                let logicEditor = block.view as! LogicEditor
+//
+//                logicEditor.formattingOptions = module.formattingOptions
+//
+//                logicEditor.suggestionsForNode = { _, node, query in
+//                    LogicViewController.suggestionsForNode(rootNode, node, query)
+//                }
+//
+//                // Only show the errors for nodes within this rootNode
+//                logicEditor.elementErrors = compiled.errors.filter { logicEditor.rootNode.find(id: $0.uuid) != nil }
+//
+//                logicEditor.willSelectNode = { rootNode, nodeId in
+//                    guard let nodeId = nodeId else { return nil }
+//
+//                    return rootNode.redirectSelection(nodeId)
+//                }
+//
+//                logicEditor.documentationForSuggestion = LogicViewController.documentationForSuggestion
             default:
                 break
             }

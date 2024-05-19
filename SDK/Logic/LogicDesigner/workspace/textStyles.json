@@ -1,0 +1,50 @@
+{
+  "styles" : [
+    {
+      "color" : "textMuted",
+      "fontSize" : 10,
+      "id" : "sectionHeader",
+      "name" : "Section Header"
+    },
+    {
+      "color" : "white",
+      "fontSize" : 10,
+      "id" : "sectionHeaderInverse",
+      "name" : "Section Header Inverse"
+    },
+    {
+      "color" : "textMuted",
+      "fontSize" : 10,
+      "id" : "sectionHeaderDisabled",
+      "name" : "Section Header Disabled"
+    },
+    {
+      "id" : "row",
+      "name" : "Row"
+    },
+    {
+      "color" : "white",
+      "id" : "rowInverse",
+      "name" : "Row Inverse"
+    },
+    {
+      "color" : "textMuted",
+      "id" : "rowDisabled",
+      "name" : "Row Disabled"
+    },
+    {
+      "color" : "textMuted",
+      "fontSize" : 18,
+      "fontWeight" : "300",
+      "id" : "subtitleMuted",
+      "name" : "Subtitle Muted"
+    },
+    {
+      "color" : "editableText",
+      "fontSize" : 16,
+      "id" : "pageLink",
+      "lineHeight" : 28,
+      "name" : "pageLink"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "devices" : [
+    {
+      "height" : 18,
+      "heightMode" : "Exactly",
+      "name" : "",
+      "width" : 320
+    },
+    {
+      "deviceId" : "Pixel 2",
+      "heightMode" : "At Least"
+    }
+  ],
+  "examples" : [
+    {
+      "id" : "Default",
+      "name" : "Default",
+      "params" : {
+
+      }
+    }
+  ],
+  "logic" : [
+    {
+      "assignee" : [
+        "layers",
+        "Text",
+        "text"
+      ],
+      "content" : [
+        "parameters",
+        "titleText"
+      ],
+      "type" : "AssignExpr"
+    }
+  ],
+  "params" : [
+    {
+      "name" : "titleText",
+      "type" : "String"
+    }
+  ],
+  "root" : {
+    "children" : [
+      {
+        "children" : [
+          {
+            "id" : "Text",
+            "params" : {
+              "font" : "sectionHeader",
+              "text" : "SECTION HEADER"
+            },
+            "type" : "Lona:Text"
+          }
+        ],
+        "id" : "View 1",
+        "params" : {
+          "alignSelf" : "stretch",
+          "backgroundColor" : "divider",
+          "flex" : 1,
+          "paddingLeft" : 12,
+          "paddingRight" : 12,
+          "paddingTop" : 4
+        },
+        "type" : "Lona:View"
+      }
+    ],
+    "id" : "View",
+    "params" : {
+      "alignSelf" : "stretch",
+      "flex" : 1
+    },
+    "type" : "Lona:View"
+  }
+}

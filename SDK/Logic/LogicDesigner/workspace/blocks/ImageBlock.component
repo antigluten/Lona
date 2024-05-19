@@ -1,0 +1,172 @@
+{
+  "devices" : [
+    {
+      "deviceId" : "iPhone SE",
+      "heightMode" : "At Least"
+    },
+    {
+      "deviceId" : "Pixel 2",
+      "heightMode" : "At Least"
+    }
+  ],
+  "examples" : [
+    {
+      "id" : "Default",
+      "name" : "Default",
+      "params" : {
+        "imageHeight" : 80,
+        "imageWidth" : 80
+      }
+    },
+    {
+      "id" : "Default",
+      "name" : "Default",
+      "params" : {
+        "image" : "file:\/\/\/Users\/devinabbott\/Projects\/Logic\/LogicDesigner\/workspace\/assets\/menu-thumbnail-h1.png",
+        "imageHeight" : 80,
+        "imageWidth" : 80
+      }
+    }
+  ],
+  "logic" : [
+    {
+      "assignee" : [
+        "layers",
+        "Image",
+        "height"
+      ],
+      "content" : [
+        "parameters",
+        "imageHeight"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "Image",
+        "width"
+      ],
+      "content" : [
+        "parameters",
+        "imageWidth"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "Image",
+        "image"
+      ],
+      "content" : [
+        "parameters",
+        "image"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "Container",
+        "onPress"
+      ],
+      "content" : [
+        "parameters",
+        "onPressImage"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "body" : [
+        {
+          "assignee" : [
+            "layers",
+            "Container",
+            "opacity"
+          ],
+          "content" : {
+            "type" : "LitExpr",
+            "value" : {
+              "data" : 0.75,
+              "type" : "Number"
+            }
+          },
+          "type" : "AssignExpr"
+        }
+      ],
+      "condition" : {
+        "left" : [
+          "layers",
+          "Container",
+          "hovered"
+        ],
+        "op" : "==",
+        "right" : {
+          "type" : "LitExpr",
+          "value" : {
+            "data" : true,
+            "type" : "Boolean"
+          }
+        },
+        "type" : "BinExpr"
+      },
+      "type" : "IfExpr"
+    }
+  ],
+  "params" : [
+    {
+      "defaultValue" : {
+        "data" : 0,
+        "type" : "Number"
+      },
+      "name" : "imageWidth",
+      "type" : "Number"
+    },
+    {
+      "defaultValue" : {
+        "data" : 0,
+        "type" : "Number"
+      },
+      "name" : "imageHeight",
+      "type" : "Number"
+    },
+    {
+      "name" : "image",
+      "type" : "URL"
+    },
+    {
+      "name" : "onPressImage",
+      "type" : {
+        "name" : "Function"
+      }
+    }
+  ],
+  "root" : {
+    "children" : [
+      {
+        "children" : [
+          {
+            "id" : "Image",
+            "params" : {
+              "backgroundColor" : "blockBackground",
+              "height" : 100,
+              "width" : 100
+            },
+            "type" : "Lona:Image"
+          }
+        ],
+        "id" : "ImageContainer",
+        "params" : {
+
+        },
+        "type" : "Lona:View"
+      }
+    ],
+    "id" : "Container",
+    "params" : {
+      "alignSelf" : "stretch"
+    },
+    "type" : "Lona:View"
+  }
+}

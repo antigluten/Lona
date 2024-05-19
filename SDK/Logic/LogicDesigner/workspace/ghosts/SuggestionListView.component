@@ -1,0 +1,104 @@
+{
+  "devices" : [
+    {
+      "height" : 200,
+      "heightMode" : "Exactly",
+      "name" : "",
+      "width" : 320
+    }
+  ],
+  "examples" : [
+    {
+      "id" : "Default",
+      "name" : "Default",
+      "params" : {
+
+      }
+    }
+  ],
+  "logic" : [
+
+  ],
+  "params" : [
+    {
+      "name" : "onSelectIndex",
+      "type" : {
+        "name" : "Function",
+        "parameters" : [
+          {
+            "label" : "_",
+            "type" : "WholeNumber?"
+          }
+        ]
+      }
+    },
+    {
+      "name" : "selectedIndex",
+      "type" : "WholeNumber?"
+    },
+    {
+      "name" : "onActivateIndex",
+      "type" : {
+        "name" : "Function",
+        "parameters" : [
+          {
+            "label" : "_",
+            "type" : "WholeNumber"
+          }
+        ]
+      }
+    }
+  ],
+  "root" : {
+    "children" : [
+      {
+        "children" : [
+          {
+            "id" : "ResultSectionHeader",
+            "params" : {
+              "titleText" : "STATEMENTS"
+            },
+            "type" : "ResultSectionHeader"
+          }
+        ],
+        "id" : "RowWrapper",
+        "params" : {
+          "alignSelf" : "stretch",
+          "height" : 18
+        },
+        "type" : "Lona:View"
+      },
+      {
+        "id" : "ResultRow",
+        "params" : {
+          "titleText" : "If condition"
+        },
+        "type" : "ResultRow"
+      },
+      {
+        "id" : "ResultRow 1",
+        "params" : {
+          "titleText" : "For loop"
+        },
+        "type" : "ResultRow"
+      },
+      {
+        "id" : "ColorRow",
+        "params" : {
+          "disabled" : false,
+          "previewColor" : "editableText",
+          "selected" : false,
+          "subtitleText" : "#ABCABC",
+          "titleText" : "Color name"
+        },
+        "type" : "ColorRow"
+      }
+    ],
+    "id" : "View",
+    "params" : {
+      "alignSelf" : "stretch",
+      "flex" : 1
+    },
+    "type" : "Lona:View"
+  }
+}

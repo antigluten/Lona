@@ -1,0 +1,24 @@
+{
+  "originHash" : "6ee71bd11270c921321801faeaf88fb930a3aeec756f65bcaf2054d434241d7e",
+  "pins" : [
+    {
+      "identity" : "differ",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tonyarnold/Differ.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "33c0342d87cdb555a06731011393f1fc5b8200bb"
+      }
+    },
+    {
+      "identity" : "witness",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/njdehoog/Witness.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "b0469457b460fc78620e3b456fed9b18669100d5"
+      }
+    }
+  ],
+  "version" : 3
+}

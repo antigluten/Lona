@@ -1,0 +1,1112 @@
+{
+  "devices" : [
+    {
+      "height" : 380,
+      "heightMode" : "At Least",
+      "name" : "Window",
+      "width" : 610
+    }
+  ],
+  "examples" : [
+    {
+      "id" : "Default",
+      "name" : "Default",
+      "params" : {
+        "showsFilterBar" : true,
+        "showsOverflowMenu" : true,
+        "suggestionFilter" : null
+      }
+    },
+    {
+      "id" : "name",
+      "name" : "name",
+      "params" : {
+        "onSelectIndex" : null,
+        "showsDropdown" : false,
+        "showsSuggestionDetails" : false,
+        "suggestionListWidth" : 300
+      }
+    }
+  ],
+  "logic" : [
+    {
+      "assignee" : [
+        "layers",
+        "Suggestion Area",
+        "visible"
+      ],
+      "content" : [
+        "parameters",
+        "showsSuggestionArea"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "Search Area",
+        "visible"
+      ],
+      "content" : [
+        "parameters",
+        "showsSearchBar"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "showsOverflowMenu"
+      ],
+      "content" : [
+        "parameters",
+        "showsOverflowMenu"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "body" : [
+        {
+          "assignee" : [
+            "layers",
+            "Divider",
+            "visible"
+          ],
+          "content" : {
+            "type" : "LitExpr",
+            "value" : {
+              "data" : false,
+              "type" : "Boolean"
+            }
+          },
+          "type" : "AssignExpr"
+        }
+      ],
+      "condition" : {
+        "left" : {
+          "type" : "LitExpr",
+          "value" : {
+            "data" : false,
+            "type" : "Boolean"
+          }
+        },
+        "op" : "==",
+        "right" : [
+          "parameters",
+          "showsSuggestionArea"
+        ],
+        "type" : "BinExpr"
+      },
+      "type" : "IfExpr"
+    },
+    {
+      "body" : [
+        {
+          "assignee" : [
+            "layers",
+            "Divider",
+            "visible"
+          ],
+          "content" : {
+            "type" : "LitExpr",
+            "value" : {
+              "data" : false,
+              "type" : "Boolean"
+            }
+          },
+          "type" : "AssignExpr"
+        }
+      ],
+      "condition" : {
+        "left" : {
+          "type" : "LitExpr",
+          "value" : {
+            "data" : false,
+            "type" : "Boolean"
+          }
+        },
+        "op" : "==",
+        "right" : [
+          "parameters",
+          "showsSearchBar"
+        ],
+        "type" : "BinExpr"
+      },
+      "type" : "IfExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "Suggestion List Container",
+        "visible"
+      ],
+      "content" : [
+        "parameters",
+        "showsSuggestionList"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "Detail Area",
+        "visible"
+      ],
+      "content" : [
+        "parameters",
+        "showsSuggestionDetails"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "body" : [
+        {
+          "assignee" : [
+            "layers",
+            "VDivider",
+            "visible"
+          ],
+          "content" : {
+            "type" : "LitExpr",
+            "value" : {
+              "data" : true,
+              "type" : "Boolean"
+            }
+          },
+          "type" : "AssignExpr"
+        }
+      ],
+      "condition" : {
+        "left" : {
+          "type" : "LitExpr",
+          "value" : {
+            "data" : true,
+            "type" : "Boolean"
+          }
+        },
+        "op" : "==",
+        "right" : [
+          "parameters",
+          "showsSuggestionList"
+        ],
+        "type" : "BinExpr"
+      },
+      "type" : "IfExpr"
+    },
+    {
+      "body" : [
+        {
+          "assignee" : [
+            "layers",
+            "VDivider",
+            "visible"
+          ],
+          "content" : {
+            "type" : "LitExpr",
+            "value" : {
+              "data" : true,
+              "type" : "Boolean"
+            }
+          },
+          "type" : "AssignExpr"
+        }
+      ],
+      "condition" : {
+        "left" : {
+          "type" : "LitExpr",
+          "value" : {
+            "data" : true,
+            "type" : "Boolean"
+          }
+        },
+        "op" : "==",
+        "right" : [
+          "parameters",
+          "showsSuggestionDetails"
+        ],
+        "type" : "BinExpr"
+      },
+      "type" : "IfExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "FilterContainer",
+        "visible"
+      ],
+      "content" : [
+        "parameters",
+        "showsFilterBar"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "FilterDivider",
+        "visible"
+      ],
+      "content" : [
+        "parameters",
+        "showsFilterBar"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressToken"
+      ],
+      "content" : [
+        "parameters",
+        "onPressToken"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onChangeSearchText"
+      ],
+      "content" : [
+        "parameters",
+        "onChangeSearchText"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "searchText"
+      ],
+      "content" : [
+        "parameters",
+        "searchText"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "placeholderText"
+      ],
+      "content" : [
+        "parameters",
+        "placeholderText"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "tokenText"
+      ],
+      "content" : [
+        "parameters",
+        "tokenText"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressDownKey"
+      ],
+      "content" : [
+        "parameters",
+        "onPressDownKey"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressUpKey"
+      ],
+      "content" : [
+        "parameters",
+        "onPressUpKey"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionListView",
+        "selectedIndex"
+      ],
+      "content" : [
+        "parameters",
+        "selectedIndex"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionListView",
+        "onSelectIndex"
+      ],
+      "content" : [
+        "parameters",
+        "onSelectIndex"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionListView",
+        "onActivateIndex"
+      ],
+      "content" : [
+        "parameters",
+        "onActivateIndex"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onSubmit"
+      ],
+      "content" : [
+        "parameters",
+        "onSubmit"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressEscapeKey"
+      ],
+      "content" : [
+        "parameters",
+        "onPressEscapeKey"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressTabKey"
+      ],
+      "content" : [
+        "parameters",
+        "onPressTabKey"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressShiftTabKey"
+      ],
+      "content" : [
+        "parameters",
+        "onPressShiftTabKey"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onSelectDropdownIndex"
+      ],
+      "content" : [
+        "parameters",
+        "onSelectDropdownIndex"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "showsDropdown"
+      ],
+      "content" : [
+        "parameters",
+        "showsDropdown"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "dropdownValues"
+      ],
+      "content" : [
+        "parameters",
+        "dropdownValues"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "dropdownKeyEquivalents"
+      ],
+      "content" : [
+        "parameters",
+        "dropdownKeyEquivalents"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "dropdownIndex"
+      ],
+      "content" : [
+        "parameters",
+        "dropdownIndex"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onHighlightDropdownIndex"
+      ],
+      "content" : [
+        "parameters",
+        "onHighlightDropdownIndex"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onCloseDropdown"
+      ],
+      "content" : [
+        "parameters",
+        "onCloseDropdown"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onOpenDropdown"
+      ],
+      "content" : [
+        "parameters",
+        "onOpenDropdown"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionDetailView",
+        "detailView"
+      ],
+      "content" : [
+        "parameters",
+        "detailView"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressCommandDownKey"
+      ],
+      "content" : [
+        "parameters",
+        "onPressCommandDownKey"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressCommandUpKey"
+      ],
+      "content" : [
+        "parameters",
+        "onPressCommandUpKey"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "FilterAll",
+        "onClick"
+      ],
+      "content" : [
+        "parameters",
+        "onPressFilterAll"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "FilterRecommended",
+        "onClick"
+      ],
+      "content" : [
+        "parameters",
+        "onPressFilterRecommended"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "SuggestionSearchBar",
+        "onPressOverflowMenu"
+      ],
+      "content" : [
+        "parameters",
+        "onPressOverflowMenu"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "assignee" : [
+        "layers",
+        "Suggestion List Container",
+        "width"
+      ],
+      "content" : [
+        "parameters",
+        "suggestionListWidth"
+      ],
+      "type" : "AssignExpr"
+    },
+    {
+      "body" : [
+        {
+          "assignee" : [
+            "layers",
+            "FilterRecommended",
+            "isActive"
+          ],
+          "content" : {
+            "type" : "LitExpr",
+            "value" : {
+              "data" : true,
+              "type" : "Boolean"
+            }
+          },
+          "type" : "AssignExpr"
+        }
+      ],
+      "condition" : {
+        "left" : [
+          "parameters",
+          "suggestionFilter"
+        ],
+        "op" : "==",
+        "right" : {
+          "type" : "LitExpr",
+          "value" : {
+            "data" : "recommended",
+            "type" : {
+              "alias" : "SuggestionFilter",
+              "name" : "Named",
+              "of" : {
+                "cases" : [
+                  "recommended",
+                  "all"
+                ],
+                "name" : "Enum"
+              }
+            }
+          }
+        },
+        "type" : "BinExpr"
+      },
+      "type" : "IfExpr"
+    },
+    {
+      "body" : [
+        {
+          "assignee" : [
+            "layers",
+            "FilterAll",
+            "isActive"
+          ],
+          "content" : {
+            "type" : "LitExpr",
+            "value" : {
+              "data" : true,
+              "type" : "Boolean"
+            }
+          },
+          "type" : "AssignExpr"
+        }
+      ],
+      "condition" : {
+        "left" : [
+          "parameters",
+          "suggestionFilter"
+        ],
+        "op" : "==",
+        "right" : {
+          "type" : "LitExpr",
+          "value" : {
+            "data" : "all",
+            "type" : {
+              "alias" : "SuggestionFilter",
+              "name" : "Named",
+              "of" : {
+                "cases" : [
+                  "recommended",
+                  "all"
+                ],
+                "name" : "Enum"
+              }
+            }
+          }
+        },
+        "type" : "BinExpr"
+      },
+      "type" : "IfExpr"
+    }
+  ],
+  "params" : [
+    {
+      "name" : "searchText",
+      "type" : "String"
+    },
+    {
+      "name" : "placeholderText",
+      "type" : "String?"
+    },
+    {
+      "name" : "tokenText",
+      "type" : "String?"
+    },
+    {
+      "name" : "onChangeSearchText",
+      "type" : {
+        "name" : "Function",
+        "parameters" : [
+          {
+            "label" : "_",
+            "type" : "String"
+          }
+        ]
+      }
+    },
+    {
+      "name" : "onPressDownKey",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onPressUpKey",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "selectedIndex",
+      "type" : "WholeNumber?"
+    },
+    {
+      "name" : "onSelectIndex",
+      "type" : {
+        "name" : "Function",
+        "parameters" : [
+          {
+            "label" : "_",
+            "type" : "WholeNumber?"
+          }
+        ]
+      }
+    },
+    {
+      "name" : "onActivateIndex",
+      "type" : {
+        "name" : "Function",
+        "parameters" : [
+          {
+            "label" : "_",
+            "type" : "WholeNumber"
+          }
+        ]
+      }
+    },
+    {
+      "name" : "onSubmit",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onPressTabKey",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onPressShiftTabKey",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onPressEscapeKey",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onSelectDropdownIndex",
+      "type" : {
+        "name" : "Function",
+        "parameters" : [
+          {
+            "label" : "_",
+            "type" : "WholeNumber"
+          }
+        ]
+      }
+    },
+    {
+      "name" : "onHighlightDropdownIndex",
+      "type" : {
+        "name" : "Function",
+        "parameters" : [
+          {
+            "label" : "_",
+            "type" : "WholeNumber?"
+          }
+        ]
+      }
+    },
+    {
+      "name" : "dropdownIndex",
+      "type" : "WholeNumber"
+    },
+    {
+      "name" : "dropdownValues",
+      "type" : {
+        "name" : "Array",
+        "of" : "String"
+      }
+    },
+    {
+      "name" : "dropdownKeyEquivalents",
+      "type" : {
+        "name" : "Array",
+        "of" : "String"
+      }
+    },
+    {
+      "name" : "onCloseDropdown",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onOpenDropdown",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "detailView",
+      "type" : "CustomDetailView"
+    },
+    {
+      "name" : "onPressCommandUpKey",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onPressCommandDownKey",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "showsDropdown",
+      "type" : "Boolean"
+    },
+    {
+      "name" : "suggestionFilter",
+      "type" : {
+        "alias" : "SuggestionFilter",
+        "name" : "Named",
+        "of" : {
+          "cases" : [
+            "recommended",
+            "all"
+          ],
+          "name" : "Enum"
+        }
+      }
+    },
+    {
+      "name" : "onPressFilterRecommended",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onPressFilterAll",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "showsFilterBar",
+      "type" : "Boolean"
+    },
+    {
+      "defaultValue" : {
+        "data" : 200,
+        "type" : "Number"
+      },
+      "name" : "suggestionListWidth",
+      "type" : "Number"
+    },
+    {
+      "defaultValue" : {
+        "data" : true,
+        "type" : "Boolean"
+      },
+      "name" : "showsSuggestionDetails",
+      "type" : "Boolean"
+    },
+    {
+      "defaultValue" : {
+        "data" : true,
+        "type" : "Boolean"
+      },
+      "name" : "showsSearchBar",
+      "type" : "Boolean"
+    },
+    {
+      "defaultValue" : {
+        "data" : true,
+        "type" : "Boolean"
+      },
+      "name" : "showsSuggestionArea",
+      "type" : "Boolean"
+    },
+    {
+      "defaultValue" : {
+        "data" : true,
+        "type" : "Boolean"
+      },
+      "name" : "showsSuggestionList",
+      "type" : "Boolean"
+    },
+    {
+      "defaultValue" : {
+        "data" : false,
+        "type" : "Boolean"
+      },
+      "name" : "showsOverflowMenu",
+      "type" : "Boolean"
+    },
+    {
+      "name" : "onPressOverflowMenu",
+      "type" : {
+        "name" : "Function"
+      }
+    },
+    {
+      "name" : "onPressToken",
+      "type" : {
+        "name" : "Function"
+      }
+    }
+  ],
+  "root" : {
+    "children" : [
+      {
+        "children" : [
+          {
+            "id" : "SuggestionSearchBar",
+            "params" : {
+              "dropdownIndex" : 0,
+              "dropdownKeyEquivalents" : [
+
+              ],
+              "dropdownValues" : [
+
+              ],
+              "placeholderText" : "Text",
+              "searchText" : "Text",
+              "showsDropdown" : false,
+              "showsOverflowMenu" : false
+            },
+            "type" : "SuggestionSearchBar"
+          }
+        ],
+        "id" : "Search Area",
+        "params" : {
+          "alignSelf" : "stretch",
+          "flexDirection" : "row",
+          "height" : 32
+        },
+        "type" : "Lona:View"
+      },
+      {
+        "id" : "Divider",
+        "params" : {
+          "alignSelf" : "stretch",
+          "backgroundColor" : "divider",
+          "height" : 1
+        },
+        "type" : "Lona:View"
+      },
+      {
+        "children" : [
+          {
+            "children" : [
+              {
+                "id" : "SuggestionListView",
+                "params" : {
+
+                },
+                "type" : "SuggestionListView"
+              }
+            ],
+            "id" : "Suggestion List Container",
+            "params" : {
+              "alignSelf" : "stretch",
+              "width" : 200
+            },
+            "type" : "Lona:View"
+          },
+          {
+            "id" : "VDivider",
+            "params" : {
+              "alignSelf" : "stretch",
+              "backgroundColor" : "divider",
+              "visible" : false,
+              "width" : 1
+            },
+            "type" : "Lona:View"
+          },
+          {
+            "children" : [
+              {
+                "id" : "SuggestionDetailView",
+                "params" : {
+
+                },
+                "type" : "SuggestionDetailView"
+              }
+            ],
+            "id" : "Detail Area",
+            "params" : {
+              "alignSelf" : "stretch",
+              "backgroundColor" : "raisedBackground",
+              "flex" : 1,
+              "visible" : false
+            },
+            "type" : "Lona:View"
+          }
+        ],
+        "id" : "Suggestion Area",
+        "params" : {
+          "alignSelf" : "stretch",
+          "flex" : 1,
+          "flexDirection" : "row"
+        },
+        "type" : "Lona:View"
+      },
+      {
+        "id" : "FilterDivider",
+        "params" : {
+          "alignSelf" : "stretch",
+          "backgroundColor" : "divider",
+          "height" : 1
+        },
+        "type" : "Lona:View"
+      },
+      {
+        "children" : [
+          {
+            "id" : "FilterRecommended",
+            "params" : {
+              "isActive" : false,
+              "titleText" : "Recommended"
+            },
+            "type" : "FilterLabel"
+          },
+          {
+            "id" : "HSpacer",
+            "params" : {
+              "width" : 4
+            },
+            "type" : "Lona:View"
+          },
+          {
+            "id" : "FilterAll",
+            "params" : {
+              "isActive" : false,
+              "titleText" : "All"
+            },
+            "type" : "FilterLabel"
+          }
+        ],
+        "id" : "FilterContainer",
+        "params" : {
+          "alignSelf" : "stretch",
+          "backgroundColor" : "raisedBackground",
+          "flexDirection" : "row",
+          "paddingBottom" : 4,
+          "paddingLeft" : 4,
+          "paddingRight" : 4,
+          "paddingTop" : 4
+        },
+        "type" : "Lona:View"
+      }
+    ],
+    "id" : "Container",
+    "params" : {
+      "alignSelf" : "stretch"
+    },
+    "type" : "Lona:View"
+  },
+  "types" : [
+    {
+      "alias" : "SuggestionFilter",
+      "name" : "Named",
+      "of" : {
+        "cases" : [
+          "recommended",
+          "all"
+        ],
+        "name" : "Enum"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "type": "program",
+  "data": {
+    "id": "06fc5548-d094-46a5-8e41-de0a43d7af0e",
+    "block": [
+      {
+        "type": "declaration",
+        "data": {
+          "id": "d00951ec-83f3-4f23-bed9-4b1042b01212",
+          "content": {
+            "data": {
+              "id": "6d2f97ba-d143-4711-8c2a-0dedf9681580",
+              "name": {
+                "id": "2a8941e3-4b5a-42f1-bb04-db4ffa1bf743",
+                "name": "Prelude"
+              }
+            },
+            "type": "importDeclaration"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "620c4433-a06b-4df1-ad3c-ff9461c967d5",
+          "content": {
+            "data": {
+              "id": "b17ebb82-43ee-4db0-b5aa-2248224b7469",
+              "name": {
+                "id": "ee03059a-c4c0-4078-96f2-4dc944774a13",
+                "name": "Color"
+              }
+            },
+            "type": "importDeclaration"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "83b74680-2f18-4542-be76-f6fd377ceba4",
+          "content": {
+            "data": {
+              "cases": [
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "917d35b6-da57-4632-a9b0-26902858e7b6"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "d3ac806c-d85b-427a-a3de-6c07b582c727",
+                      "string": "# Ultra Light\n\nThe lightest font weight, representing **100**."
+                    },
+                    "id": "d060b704-a542-4a0d-bcd0-1717e6c68e69",
+                    "name": {
+                      "id": "a5151ef2-f3ef-442c-925b-0b3781a8fb5b",
+                      "name": "ultraLight"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "60d5355e-b957-432e-959c-cb7aaabc8651"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "e9b562d2-efc4-4d13-9353-b4083f236d84",
+                      "string": "# Thin\n\nA font weight, representing **200**."
+                    },
+                    "id": "011a7ad5-f594-4655-846b-a242776dbfac",
+                    "name": {
+                      "id": "5a91a721-96ee-46ee-81b3-8d2f761e2afa",
+                      "name": "thin"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "fdb63588-8c8c-433f-a323-8326f698e962"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "a4a4bc55-72c6-433d-ad0f-74fe0ada6bc6",
+                      "string": "# Light\n\nA font weight, representing **300**."
+                    },
+                    "id": "b8f50862-6857-47d5-a045-e50746862af1",
+                    "name": {
+                      "id": "56df4d93-494a-4971-be24-ddbd9f379803",
+                      "name": "light"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "c1e0db03-fbf0-47e5-86c2-3c852b624e75"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "a32dde95-5e7e-43d8-aa9f-fef859ed658c",
+                      "string": "# Regular\n\nA font weight, representing **400**."
+                    },
+                    "id": "ebfee3a1-7b5e-48b2-9751-cdf8a35da39b",
+                    "name": {
+                      "id": "e614e807-4e60-47ac-a306-f3faf16aeb2e",
+                      "name": "regular"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "de68d99e-01ba-401c-8dd7-94441abd12d5"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "48270654-5a3a-4a0c-8ae7-329d702e1da9",
+                      "string": "# Medium\n\nA font weight, representing **500**."
+                    },
+                    "id": "174b4f79-e00e-427c-adea-1b731ad3c182",
+                    "name": {
+                      "id": "696a9600-0168-47a9-9dd0-3287b75adb75",
+                      "name": "medium"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "0e4aace5-e38e-468e-b2fc-0b12a1dc544e"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "4695a932-da01-4d0a-b6ae-2343e3f07638",
+                      "string": "# Semibold\n\nA font weight, representing **600**."
+                    },
+                    "id": "26d9613c-38bc-4580-890c-3ef8c41ad41a",
+                    "name": {
+                      "id": "9b0cbe36-cd6a-4668-a2b2-de0f8e7bcca0",
+                      "name": "semibold"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "ccbd385f-0d1a-4d77-a4c0-d51aa714a63e"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "352811f7-ab21-4f6c-93e7-647295b71ad4",
+                      "string": "# Bold\n\nA font weight, representing **700**."
+                    },
+                    "id": "307a68b3-5675-47b4-a083-70971a10512e",
+                    "name": {
+                      "id": "a75bbf75-924e-4fe8-b4bb-0a0787d851ac",
+                      "name": "bold"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "557b0b5a-5be8-4305-929f-2a969e840adc"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "bab23179-890d-4483-93f7-ba1303db5411",
+                      "string": "# Heavy\n\nA font weight, representing **800**."
+                    },
+                    "id": "8ae00893-ecca-4f50-833e-248240d5e372",
+                    "name": {
+                      "id": "f9c20f7e-4f82-4548-aad6-91633d81edb5",
+                      "name": "heavy"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "associatedValueTypes": [
+                      {
+                        "data": {
+                          "id": "228e7d72-22d3-447c-9169-e3e6e89492ee"
+                        },
+                        "type": "placeholder"
+                      }
+                    ],
+                    "comment": {
+                      "id": "803d418a-93ca-411f-bf26-51ca7898f4e9",
+                      "string": "# Black\n\nThe heaviest font weight, representing **900**."
+                    },
+                    "id": "66003a1c-3674-4a4e-9cfd-17fc5ab0709f",
+                    "name": {
+                      "id": "15722729-48a4-4ee4-97fd-4c66977b6b49",
+                      "name": "black"
+                    }
+                  },
+                  "type": "enumerationCase"
+                },
+                {
+                  "data": {
+                    "id": "89a83530-bc6b-430d-a64a-970e9967e6cf"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "comment": {
+                "id": "4d71fe87-5772-43c5-8da4-574422617510",
+                "string": "# Font Weight\n\nFont thickness.\n\nAn individual font may support multiple weights. However, specifying a weight that isn't supported will generally result in the **regular (400)** weight being displayed."
+              },
+              "genericParameters": [
+                {
+                  "data": {
+                    "id": "a535b7da-56e8-401f-b6fc-94fe5b5470cc"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "id": "0213c3b3-1ea3-4ff0-a871-1697088fb8e3",
+              "name": {
+                "id": "1afc6259-94eb-4b83-8be6-cfff0ca7a0fa",
+                "name": "FontWeight"
+              }
+            },
+            "type": "enumeration"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "97c7d892-81b3-46f6-8d6b-a5e2a6201f47",
+          "content": {
+            "data": {
+              "declarations": [
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "c9f1757c-264e-41e7-a6a5-ad489f0f9460",
+                        "identifier": {
+                          "id": "6a857c3e-16fd-488a-894d-1c1024148388",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "fe7427d8-f9d2-44a0-92c2-23719c5b521f",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "f47b8d05-43b5-46cb-9aa8-e0a3d818c404"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "dbe8696d-2212-4079-9f8b-7ebbdb460baf",
+                                "identifier": {
+                                  "id": "5fd6f05e-c563-41e8-a731-4105d1dbe605",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "0e1cdf3c-1b3e-4b0d-9e84-5b3eb97573ef",
+                            "memberName": {
+                              "id": "0c4f5d92-dede-4452-8ed7-2707d3c0dd3c",
+                              "isPlaceholder": false,
+                              "string": "ultraLight"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "741d036b-97a0-4ccf-a89e-c0906028186f"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "689c016d-72e5-481d-890d-98b42cffdd3f",
+                      "name": "w100"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "749bf432-54d2-4138-8d03-3aac1257761d",
+                        "identifier": {
+                          "id": "5f92c06e-ce3f-42bd-a0d2-eba3b6c0c020",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "fb3e8555-f365-4c84-b665-db2a0707432d",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "ff78fa46-5b65-4d31-ae64-6a00331c7528"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "d1430d92-3a09-4121-b491-d46984151d8a",
+                                "identifier": {
+                                  "id": "76c6641b-3df5-4f30-bf00-4d549482f22e",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "b7d147e5-c995-4571-95d0-c09eae6ca1b8",
+                            "memberName": {
+                              "id": "7a01885e-f9cb-4328-b178-0e4e2dd6a570",
+                              "isPlaceholder": false,
+                              "string": "thin"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "9debdae8-df25-46bf-a915-f0e30d01adda"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "6c725658-21e2-4b57-b4b2-8f752dc8cb34",
+                      "name": "w200"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "e5890e3b-8c5a-4cc6-87cf-311e9b8b2415",
+                        "identifier": {
+                          "id": "b638a952-90e5-448c-993d-38728bf2f7bb",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "858e56d8-893d-4df0-baf8-6d15f16dca1d",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "e6950874-36ff-4486-89d1-3376388690ec"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "40e5652e-1089-48e3-a678-9d9e9115b1b5",
+                                "identifier": {
+                                  "id": "45e89492-ae9f-40e6-bfff-cccbd198e545",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "c62aebd8-04eb-4137-96a6-4bc40286f7f2",
+                            "memberName": {
+                              "id": "b2d115f2-3c5d-42d9-ba57-8cd6c4e43a6d",
+                              "isPlaceholder": false,
+                              "string": "light"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "f864894a-f90a-42c4-818a-ecee87dadc69"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "15ca0b0d-7fd2-491f-9bc0-6c1f2c54a616",
+                      "name": "w300"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "fea96bb8-cc4f-4bd2-8014-b46afcec22c6",
+                        "identifier": {
+                          "id": "5c4f1a75-0241-493a-880d-9dcbfb28ae8c",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "22f9d471-c7e5-40e6-a754-cbc4292d9db6",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "9890442e-3efb-464b-a39d-6f94566f9974"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "7a7e4fec-b3da-4c64-8531-306a28bba69a",
+                                "identifier": {
+                                  "id": "b019e2e5-b9a2-4383-8cc4-0a00a53842d1",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "117f7a38-1acd-4a1f-8b9e-3122d9255fd1",
+                            "memberName": {
+                              "id": "8b031135-77b4-4694-b647-051a492ea1aa",
+                              "isPlaceholder": false,
+                              "string": "regular"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "57e5b358-58ec-41a5-8be8-d5988f95d4fa"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "51ee0b20-8b17-4cf8-9b5f-b91546e2c8ce",
+                      "name": "w400"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "595a64fa-39bb-4e0e-bb34-baa9ce78b5c0",
+                        "identifier": {
+                          "id": "8bf97bd9-e4d4-456d-947e-0ebe7773a668",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "f7a7fd1e-1b41-4ca8-99e5-cb7a192ba25e",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "078bbebb-df09-4d0e-97c2-84ded755bc3b"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "28e6c001-4e2b-40f9-b91e-2ec4de402b52",
+                                "identifier": {
+                                  "id": "6848f3a9-1be7-4136-a5e3-774dd7c5f45f",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "5fd2224f-94a4-4acf-90ec-fda86e1b5bd0",
+                            "memberName": {
+                              "id": "d195a87e-82ae-466d-b2f5-15aa1a6087ca",
+                              "isPlaceholder": false,
+                              "string": "medium"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "93041131-2635-4872-838e-a1629448ca5a"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "a48944a0-df48-4879-87b8-94dacbce78c6",
+                      "name": "w500"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "d4118ec1-cd9a-46dd-ac2c-f72a1a5eacfa",
+                        "identifier": {
+                          "id": "cfd6b385-5fb0-44cb-be3e-c051c111247a",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "3479817f-e41c-4bde-a421-d713426ef6ec",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "657c6a62-d591-45ed-b34d-513610e69fd3"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "ab5e2bf4-e918-47de-9a42-0d07971fe612",
+                                "identifier": {
+                                  "id": "217f4297-63ee-48a5-9bb7-5aff080ecb5e",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "8a0fae5d-8d5c-4120-93e5-a4943980fba8",
+                            "memberName": {
+                              "id": "756331af-299b-4229-8e7a-1bc1c205d93b",
+                              "isPlaceholder": false,
+                              "string": "semibold"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "395b8ca0-0713-4d8b-bdfc-ef35b66b6c65"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "ff0fa9db-14a7-4e0f-afe8-6983daf72361",
+                      "name": "w600"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "047db12a-06ff-44a9-b201-d71a93530b7a",
+                        "identifier": {
+                          "id": "427a5148-c2ed-4f0e-9d99-40a84c71c400",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "9dcbc59c-e320-468e-8fcc-fe15ae876e4c",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "124402a0-5ce5-4511-818d-a331861e9863"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "96467969-06a3-4945-b5bb-56d65c5fa73d",
+                                "identifier": {
+                                  "id": "d56135d5-1a05-48e8-a019-f78d95d787af",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "d09af68b-985a-458a-bd92-187f2fa9de62",
+                            "memberName": {
+                              "id": "4b2b3c4e-908e-473b-b711-63aeb0c1844d",
+                              "isPlaceholder": false,
+                              "string": "bold"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "c623b8fe-c474-4efe-95ee-444a8f9d0a1f"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "79ffc743-622f-4f1e-a64b-fcceee528da7",
+                      "name": "w700"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "44bfd3f4-50d8-4ddd-aff2-2d1ecd0d8c25",
+                        "identifier": {
+                          "id": "e6517e03-ab83-434d-b38c-0f5736c2d901",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "f3989cc6-b2d3-4e79-b8ae-0aa34c5f3174",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "654e7c4c-320a-443e-96c7-38d902971366"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "1bbc4d34-23ab-4159-a9a4-7b3982549521",
+                                "identifier": {
+                                  "id": "f4c715f2-37c5-46c1-add7-dac5f1d114fc",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "372219c2-2613-4899-8377-3bba74b8d719",
+                            "memberName": {
+                              "id": "f42d86e2-6a96-41f6-8be4-78115fb0f2c8",
+                              "isPlaceholder": false,
+                              "string": "heavy"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "fa1ed8de-8744-4384-9fc2-e315f4692e6b"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "98a1ab95-bee2-4186-b0f0-1b6bed62309b",
+                      "name": "w800"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "9ddf8b46-0330-44a6-919a-ed8873698f97",
+                        "identifier": {
+                          "id": "9b02cf4d-4fca-4b4c-91c4-e46989e3b8e1",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "id": "7deb204d-c378-4e3b-851d-05f4695c10fb",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "4ceeb11b-d51f-4676-9363-f2e40ab57c17"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "bda91dfb-f1e4-48b8-bb76-a25eaebdbd31",
+                                "identifier": {
+                                  "id": "efaa64b8-01c7-43b1-aea0-341e298dbe3b",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "e2d64f3b-595d-4bbf-aae9-89311b888583",
+                            "memberName": {
+                              "id": "e2084e1e-cfe7-41c8-a885-3f6204e91828",
+                              "isPlaceholder": false,
+                              "string": "black"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "37c78629-790f-4916-8ae5-39ba56acb587"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "65ab1f97-fdd5-4e1d-98d5-9d263b9cf726",
+                      "name": "w900"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "id": "e1109e7f-9270-4acd-bf85-c76d139bc929"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "id": "45a598e6-439b-416e-bc14-30b68ad959c3",
+              "name": {
+                "id": "f8cc77bd-40ac-4d52-b307-6b56806840c9",
+                "name": "FontWeight"
+              }
+            },
+            "type": "namespace"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "a83bbf71-7ce7-4288-9ca9-5f570b867ada",
+          "content": {
+            "data": {
+              "comment": {
+                "id": "3f8fdf1e-df54-4a00-b3b3-afe7e8d40f93",
+                "string": "I> Press enter to create a new Text Style.\n\n# Text Style\n\nThis represents a specific configuration of text parameters such as font and color."
+              },
+              "declarations": [
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [
+                          {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "1186f080-e938-439e-ab87-6ecb49e4d171",
+                              "identifier": {
+                                "id": "dec3bc4e-6952-483a-adf3-35e264af196a",
+                                "isPlaceholder": false,
+                                "string": "String"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          }
+                        ],
+                        "id": "c0ed9c5a-2aad-4abe-8e60-e88307777fbe",
+                        "identifier": {
+                          "id": "78e704ea-b55f-48ca-83a5-d8e1d7c03140",
+                          "isPlaceholder": false,
+                          "string": "Optional"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "comment": {
+                      "id": "572562c2-d52b-48c4-a8a9-56d28cf63750",
+                      "string": "W> This parameter is not supported on the web.\n\n# Font Name\n\nThe exact name of a font file, e.g. \"Helvetica-Oblique\". Generally, you should use the `fontFamily` parameter where possible instead."
+                    },
+                    "id": "c043b789-34d0-4036-ab8b-ef6ab942ce00",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "dad1db1d-1c05-4c2f-bc3b-85cc8da43ca5"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "a07cbd09-a4cd-4d99-9c11-0e3e1525072d",
+                                "identifier": {
+                                  "id": "cbe0862c-8e06-4cc9-bd57-9c1b20d53542",
+                                  "isPlaceholder": false,
+                                  "string": "Optional"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "f3a363ed-4eee-415a-bb5e-d58a9bb76f1d",
+                            "memberName": {
+                              "id": "8b2aa456-fd5c-4905-ae21-c58423a86390",
+                              "isPlaceholder": false,
+                              "string": "none"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "ca3dc472-0eac-4468-acb4-434c307da4bc"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "1f7b8e0d-f565-4ca7-8cc0-feace2fb9afa",
+                      "name": "fontName"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [
+                          {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "3a987832-b2c4-4ac6-a370-5e8507a27f40",
+                              "identifier": {
+                                "id": "6799d4ac-7f3b-4216-b0a8-8b82721084ad",
+                                "isPlaceholder": false,
+                                "string": "String"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          }
+                        ],
+                        "id": "a83c4991-ff2e-49ae-a711-118c3cffbdbc",
+                        "identifier": {
+                          "id": "f121db7d-045b-4190-afe3-001a1e895105",
+                          "isPlaceholder": false,
+                          "string": "Optional"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "comment": {
+                      "id": "9eaed028-c993-4252-a7b6-fe09b46e6301",
+                      "string": "# Font Family\n\nThe family name of the font - for example, \"Times\" or \"Helvetica.\""
+                    },
+                    "id": "e53f4e13-58b3-4bf5-b800-0fbad40f5ba5",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "073d6fef-6728-4e3e-b442-e2abbebb7d4a"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "91f61a5d-4cb3-4999-9b71-270907692513",
+                                "identifier": {
+                                  "id": "7008e6be-a5f4-4091-b0a6-0a77086d9562",
+                                  "isPlaceholder": false,
+                                  "string": "Optional"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "500e4dbe-2458-4430-868e-13ed043019df",
+                            "memberName": {
+                              "id": "7aeb22a7-828d-4e75-b089-490ac63d5f9c",
+                              "isPlaceholder": false,
+                              "string": "none"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "332afb2b-9393-493d-b00d-cb8ea3345ee2"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "14a6c902-c83c-4967-9fdb-dbeac58f856f",
+                      "name": "fontFamily"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [],
+                        "id": "106b4604-dec1-4fa1-af89-981201dc18b3",
+                        "identifier": {
+                          "id": "39b8f068-68b9-4a06-91fb-19c6147d034a",
+                          "isPlaceholder": false,
+                          "string": "FontWeight"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "comment": {
+                      "id": "18ac8368-0625-4531-b939-1385be2d276b",
+                      "string": "# Font Weight\n\nThe thickness of a font, ranging from `black` to `ultraLight`. The default value is `regular`."
+                    },
+                    "id": "6e042aaf-f074-4458-aff2-b980296273cc",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "7c28fc3b-5881-430f-86d4-32172fbb0d8f"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "85783455-cb72-4846-a9d6-e307c7ca4f22",
+                                "identifier": {
+                                  "id": "4e842813-d133-4cf6-8949-6161c235c076",
+                                  "isPlaceholder": false,
+                                  "string": "FontWeight"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "aa0f0fb6-2225-4cd9-a589-dcbd6d5d52d2",
+                            "memberName": {
+                              "id": "49202f01-0130-4623-bfe9-729d813e07fe",
+                              "isPlaceholder": false,
+                              "string": "regular"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "7631b7d4-a90f-4fd2-b687-ec9daf732398"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "1f70f4e1-c452-45e8-8f09-c8ae393798da",
+                      "name": "fontWeight"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [
+                          {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "554914d8-93ac-4464-9437-9b7682f81953",
+                              "identifier": {
+                                "id": "44f0c25e-cdff-4f57-9d39-a2874af028f5",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          }
+                        ],
+                        "id": "abb43070-b9e0-4c7f-8967-2cab6f949159",
+                        "identifier": {
+                          "id": "752ab569-ad42-4bd8-84d2-2493488d9cef",
+                          "isPlaceholder": false,
+                          "string": "Optional"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "comment": {
+                      "id": "16b7b97c-35b5-4fed-aa46-eec47a4d9494",
+                      "string": "# Font Size\n\nThe size of the font, measured in pixels."
+                    },
+                    "id": "67728762-8753-4b32-badb-0c8da9f228eb",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "d483a92b-5a9d-4073-b441-efc24482a093"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "fb273ad5-d9e9-4e21-90a3-1b7c0c0a7a5b",
+                                "identifier": {
+                                  "id": "e3dd3ad0-c5a0-4e54-a915-6430f8fae918",
+                                  "isPlaceholder": false,
+                                  "string": "Optional"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "ca10f834-0e2a-4e6f-ad45-ebad726c34fb",
+                            "memberName": {
+                              "id": "2b6cc632-f35a-4f10-9e7e-940d83ae015c",
+                              "isPlaceholder": false,
+                              "string": "none"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "f4cc9a2c-ec28-41a1-b28b-3334c08ee5f5"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "31febf48-7f46-4de3-bf3a-eeb46129c6e7",
+                      "name": "fontSize"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [
+                          {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "b0671818-a10b-43e8-9e6c-90df8ce52df1",
+                              "identifier": {
+                                "id": "b7ce9f25-e0a3-41bc-b86e-dcc53b843c20",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          }
+                        ],
+                        "id": "cf6f03c9-afca-4d6f-b325-205feff304c7",
+                        "identifier": {
+                          "id": "1d99abe4-ef22-40d4-8e26-c21754f98169",
+                          "isPlaceholder": false,
+                          "string": "Optional"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "comment": {
+                      "id": "a80cbccb-ccd0-42f3-be60-16278dbb4d12",
+                      "string": "# Line Height\n\nThe line height, measured in pixels. The default is `none`, in which case the text style will default to the system-calculated line height."
+                    },
+                    "id": "b4329bb9-de98-400d-88de-fbd08224d99c",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "3816894b-a6c5-4118-96e4-2238f6bdf1db"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "1ff32e65-61a4-4fa0-bda4-c1bb7b985426",
+                                "identifier": {
+                                  "id": "19de1d26-fd96-4599-8045-271fe7f2edf5",
+                                  "isPlaceholder": false,
+                                  "string": "Optional"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "d78a90db-dc9d-4187-8717-349fa8b86b4c",
+                            "memberName": {
+                              "id": "29f44289-c988-4dcb-80ba-f402f766e8b2",
+                              "isPlaceholder": false,
+                              "string": "none"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "6e452864-cb63-4ccd-bc20-e5d734794080"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "8a3155f0-5b01-464f-a567-722d4b624e47",
+                      "name": "lineHeight"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [
+                          {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "0763053f-a392-403f-b4d1-cdfa6563f677",
+                              "identifier": {
+                                "id": "91fb944e-8b16-465b-b13b-a0edcee57751",
+                                "isPlaceholder": false,
+                                "string": "Number"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          }
+                        ],
+                        "id": "b29e02d4-d3d1-4c4a-a1de-be8ed039842c",
+                        "identifier": {
+                          "id": "d55e85f9-a3b6-428e-836b-e0d61170c850",
+                          "isPlaceholder": false,
+                          "string": "Optional"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "comment": {
+                      "id": "07bc0023-d42b-4d09-8e99-be8d210ff514",
+                      "string": "# Letter Spacing\n\nIncrease or decrease the kerning (spacing between characters). The default is `none`, which uses the font's built-in kerning."
+                    },
+                    "id": "4af792d2-e1be-4cde-9720-f707766f2d62",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "3bcc2c6a-88b4-433c-bb00-0e0b9614fa7c"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "66bfe681-49b8-48d9-a11e-e528677eefc2",
+                                "identifier": {
+                                  "id": "3f995e7d-1d4f-4a5f-9832-004edb4ed47c",
+                                  "isPlaceholder": false,
+                                  "string": "Optional"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "d056d7d6-6bbc-477d-a328-abdae68e26d4",
+                            "memberName": {
+                              "id": "2b43ae7f-b861-4361-bd66-4620bf7de99e",
+                              "isPlaceholder": false,
+                              "string": "none"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "05f33c8c-44e7-49fa-a6e4-0a651b598312"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "bdecf1c7-9bf5-4f1e-9329-8970c240e826",
+                      "name": "letterSpacing"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "annotation": {
+                      "data": {
+                        "genericArguments": [
+                          {
+                            "data": {
+                              "genericArguments": [],
+                              "id": "fa770b00-ea45-4132-8ef4-38756d958df1",
+                              "identifier": {
+                                "id": "74669e3e-b2e4-4cce-95e1-413a66e644c7",
+                                "isPlaceholder": false,
+                                "string": "Color"
+                              }
+                            },
+                            "type": "typeIdentifier"
+                          }
+                        ],
+                        "id": "48a88da0-8d0f-4597-ad1d-e881dd54c378",
+                        "identifier": {
+                          "id": "0a128a29-2730-406b-9fc7-0aaddf36f5a9",
+                          "isPlaceholder": false,
+                          "string": "Optional"
+                        }
+                      },
+                      "type": "typeIdentifier"
+                    },
+                    "comment": {
+                      "id": "25adaf27-2784-4732-8607-8d96c3131845",
+                      "string": "# Color\n\nThe color of the text."
+                    },
+                    "id": "78eda1a2-923a-4d3e-b684-4387c402d9db",
+                    "initializer": {
+                      "data": {
+                        "arguments": [
+                          {
+                            "data": {
+                              "id": "fbfe77e7-97bf-49f2-8101-b0b57ef155d5"
+                            },
+                            "type": "placeholder"
+                          }
+                        ],
+                        "expression": {
+                          "data": {
+                            "expression": {
+                              "data": {
+                                "id": "5677faae-4120-4f56-a7b5-1a6b82d525fc",
+                                "identifier": {
+                                  "id": "4c44ffa0-15be-4ba4-b2f1-80dd438b73d8",
+                                  "isPlaceholder": false,
+                                  "string": "Optional"
+                                }
+                              },
+                              "type": "identifierExpression"
+                            },
+                            "id": "f6a9d3cb-e16c-4d93-96ed-5df32bf85275",
+                            "memberName": {
+                              "id": "d69035fc-084a-4c04-8061-7f1869369a28",
+                              "isPlaceholder": false,
+                              "string": "none"
+                            }
+                          },
+                          "type": "memberExpression"
+                        },
+                        "id": "1fdd8b09-f134-4b04-9328-0e443d83b8de"
+                      },
+                      "type": "functionCallExpression"
+                    },
+                    "name": {
+                      "id": "9d5e359d-5370-40f1-a28a-d57dba9b5251",
+                      "name": "color"
+                    }
+                  },
+                  "type": "variable"
+                },
+                {
+                  "data": {
+                    "id": "e697f0af-5ca5-4cda-b233-e4cc05366e14"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "genericParameters": [
+                {
+                  "data": {
+                    "id": "5fb231f7-9401-4129-a5e3-cc0ca3d44a74"
+                  },
+                  "type": "placeholder"
+                }
+              ],
+              "id": "ffdc1d07-2004-4163-b094-105cf3ab8cc6",
+              "name": {
+                "id": "77db58cf-665d-41ef-80ca-0640363808b4",
+                "name": "TextStyle"
+              }
+            },
+            "type": "record"
+          }
+        }
+      },
+      {
+        "type": "declaration",
+        "data": {
+          "id": "3eeb4812-52bb-4b61-9895-21df6509ee0c",
+          "content": {
+            "data": {
+              "id": "2902228e-a072-4618-9489-db1c2126dc14"
+            },
+            "type": "placeholder"
+          }
+        }
+      }
+    ]
+  }
+}

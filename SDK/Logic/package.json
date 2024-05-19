@@ -1,0 +1,13 @@
+{
+  "name": "logic",
+  "private": true,
+  "dependencies": {
+    "@lona/compiler": "^0.1.10"
+  },
+  "scripts": {
+    "postinstall": "npm run copy:standard-library && npm run copy:serialization && npm run copy:syntax",
+    "copy:standard-library": "cp -r node_modules/@lona/compiler/static/logic/* Logic/Logic/CodeEditor/Language",
+    "copy:serialization": "cp node_modules/@lona/serialization/dist/lona-serialization.umd.js Logic/Logic/Scripting/lona-serialization.umd.js",
+    "copy:syntax": "cp node_modules/@lona/serialization/dist/LGCSyntax.swift Logic/Logic/CodeEditor/Syntax/LGCSyntax.swift"
+  }
+}

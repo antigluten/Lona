@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -197,10 +197,6 @@
 		6B25041821E5510900AE7F97 /* ImageDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25041621E5510900AE7F97 /* ImageDocument.swift */; };
 		6B25041921E5510900AE7F97 /* JSONDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B25041721E5510900AE7F97 /* JSONDocument.swift */; };
 		6B291339219CAC9600A1DDB4 /* CSRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B291338219CAC9600A1DDB4 /* CSRendering.swift */; };
-		6B2DC1AB21361C4700679668 /* ColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DC1A921361C4700679668 /* ColorPicker.framework */; };
-		6B2DC1AC21361C4700679668 /* ColorPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DC1A921361C4700679668 /* ColorPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6B2DC1AD21361C4700679668 /* Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DC1AA21361C4700679668 /* Colors.framework */; };
-		6B2DC1AE21361C4700679668 /* Colors.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B2DC1AA21361C4700679668 /* Colors.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B2DC1B221362E8400679668 /* CoreColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2DC1B121362E8400679668 /* CoreColorPicker.swift */; };
 		6B34149E2258041900CC65D1 /* LogicEditor+ParametersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B34149D2258041900CC65D1 /* LogicEditor+ParametersView.swift */; };
 		6B3414A822596AA300CC65D1 /* LGCTypeAnnotation+CSType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3414A722596AA300CC65D1 /* LGCTypeAnnotation+CSType.swift */; };
@@ -234,8 +230,6 @@
 		6B56ECB321BC5B6D005F43C5 /* FlippedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56ECB221BC5B6D005F43C5 /* FlippedView.swift */; };
 		6B56ECB521BC6645005F43C5 /* ConfiguredLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56ECB421BC6645005F43C5 /* ConfiguredLayer.swift */; };
 		6B56ECB721BDC710005F43C5 /* ControlledDropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56ECB621BDC710005F43C5 /* ControlledDropdown.swift */; };
-		6B5886862134D6BB00CCA69F /* ControlledComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5886852134D6BB00CCA69F /* ControlledComponents.framework */; };
-		6B5886872134D6BB00CCA69F /* ControlledComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B5886852134D6BB00CCA69F /* ControlledComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B58868B2134D9E800CCA69F /* ColorInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5886892134D9E800CCA69F /* ColorInspector.swift */; };
 		6B58868D2134DD3F00CCA69F /* CoreTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B58868C2134DD3F00CCA69F /* CoreTextInput.swift */; };
 		6B58EA30242ABDA300491DAF /* NavigationComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 6B58EA2F242ABDA300491DAF /* NavigationComponents */; };
@@ -263,8 +257,6 @@
 		6B6E47522405F86D0067B2FF /* lona-app-install-step2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6E474E2405F86D0067B2FF /* lona-app-install-step2@2x.png */; };
 		6B6E47532405F86D0067B2FF /* lona-app-install-step1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B6E474F2405F86D0067B2FF /* lona-app-install-step1@2x.png */; };
 		6B6E47552407201D0067B2FF /* FlippedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6E47542407201D0067B2FF /* FlippedScrollView.swift */; };
-		6B6F19CE2304B49A00E5AC60 /* SwiftGraph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6F19CC2304B47A00E5AC60 /* SwiftGraph.framework */; };
-		6B6F19CF2304B49A00E5AC60 /* SwiftGraph.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6F19CC2304B47A00E5AC60 /* SwiftGraph.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6B6F19D12307222200E5AC60 /* TemplateFileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6F19D02307222200E5AC60 /* TemplateFileCard.swift */; };
 		6B73809422C66E59007534A0 /* TemplateBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73809322C66E59007534A0 /* TemplateBrowser.swift */; };
 		6B73809622C67563007534A0 /* WorkspaceTemplateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B73809522C67563007534A0 /* WorkspaceTemplateCard.swift */; };
@@ -295,8 +287,6 @@
 		6BA5BBD92174F2A500F086A7 /* FileNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5BBD82174F2A500F086A7 /* FileNavigator.swift */; };
 		6BA5BBDB2174FA2100F086A7 /* FileNavigatorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5BBDA2174FA2100F086A7 /* FileNavigatorHeader.swift */; };
 		6BA5BBDF2176D93D00F086A7 /* TextStyleEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5BBDE2176D93D00F086A7 /* TextStyleEditorViewController.swift */; };
-		6BA6E895212F92B0009CD33C /* Witness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA6E894212F92B0009CD33C /* Witness.framework */; };
-		6BA6E896212F92B0009CD33C /* Witness.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA6E894212F92B0009CD33C /* Witness.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6BA6E89921307D65009CD33C /* WorkspaceWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6E89821307D65009CD33C /* WorkspaceWindowController.swift */; };
 		6BA6E89B213080CE009CD33C /* ComponentEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6E89A213080CE009CD33C /* ComponentEditorViewController.swift */; };
 		6BA6E89F21324207009CD33C /* ForeignTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA6E89E21324207009CD33C /* ForeignTypes.swift */; };
@@ -316,8 +306,6 @@
 		6BB7E2182426DDA2001261A3 /* Logic+Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7E2172426DDA2001261A3 /* Logic+Documentation.swift */; };
 		6BB7E21A2426DF70001261A3 /* Logic+Decoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7E2192426DF70001261A3 /* Logic+Decoration.swift */; };
 		6BB7E21C2426E06D001261A3 /* Logic+Suggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB7E21B2426E06D001261A3 /* Logic+Suggestions.swift */; };
-		6BBE0F6A212B26C900CEE8C1 /* FileTree.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBE0F69212B26C900CEE8C1 /* FileTree.framework */; };
-		6BBE0F6B212B26C900CEE8C1 /* FileTree.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BBE0F69212B26C900CEE8C1 /* FileTree.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6BC2D43D226162C4003A9F63 /* LabeledLogicInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2D43C226162C4003A9F63 /* LabeledLogicInput.swift */; };
 		6BC2D43F226245F9003A9F63 /* LogicInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2D43E226245F9003A9F63 /* LogicInput.swift */; };
 		6BC2D44122624BBB003A9F63 /* LogicInput+CSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2D44022624BBB003A9F63 /* LogicInput+CSColor.swift */; };
@@ -328,10 +316,6 @@
 		6BC2D4542263D8F2003A9F63 /* LabeledColorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2D4532263D8F2003A9F63 /* LabeledColorInput.swift */; };
 		6BC2D45622640BA9003A9F63 /* LogicInput+CSURLType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2D45522640BA9003A9F63 /* LogicInput+CSURLType.swift */; };
 		6BC605CD21F78F240087311A /* LabeledDropdownRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC605CC21F78F240087311A /* LabeledDropdownRow.swift */; };
-		6BC6062B223F191A003E616B /* Logic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC60626223F1878003E616B /* Logic.framework */; };
-		6BC6062C223F191A003E616B /* Logic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC60626223F1878003E616B /* Logic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6BC60631223F1947003E616B /* Logic.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = 6BC60630223F1947003E616B /* Logic.framework.dSYM */; };
-		6BC60632223F194E003E616B /* Logic.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6BC60630223F1947003E616B /* Logic.framework.dSYM */; };
 		6BCCE31423E762EB004C482E /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCCE31323E762EB004C482E /* History.swift */; };
 		6BCCE33223F322D7004C482E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCCE33123F322D7004C482E /* PrimaryButton.swift */; };
 		6BCCE33423F34BEF004C482E /* PublishNeedsAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCCE33323F34BEE004C482E /* PublishNeedsAuth.swift */; };
@@ -362,12 +346,16 @@
 		6BF4EF45235A695F00548F61 /* WorkspaceWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF4EF44235A695F00548F61 /* WorkspaceWindow.swift */; };
 		6BF4EF5D235CF8DD00548F61 /* ShadowSuggestionEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF4EF5C235CF8DC00548F61 /* ShadowSuggestionEditor.swift */; };
 		6BF7795B22D51A4D009A4119 /* ToolbarStatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF7795A22D51A4D009A4119 /* ToolbarStatusBar.swift */; };
-		6BF894D32214E3DD000CD863 /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF894D12214E3CD000CD863 /* Differ.framework */; };
-		6BF894D42214E3DD000CD863 /* Differ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF894D12214E3CD000CD863 /* Differ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6BFAE60423009AB700B150E2 /* LogicModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFAE60323009AB700B150E2 /* LogicModule.swift */; };
 		6BFC4E0621C9C5A10030938B /* CanvasInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFC4E0521C9C5A10030938B /* CanvasInspector.swift */; };
 		76AB58E053220594F098A3C5 /* Pods_LonaStudioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA2F7370DB15639E08B399A /* Pods_LonaStudioTests.framework */; };
 		783A74CD337C61784E60C467 /* Pods_LonaStudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7949560983378CFD6EC6FFD5 /* Pods_LonaStudio.framework */; };
+		A60776572BFA6FC30069237F /* Differ in Frameworks */ = {isa = PBXBuildFile; productRef = A60776562BFA6FC30069237F /* Differ */; };
+		A632EA372BFA1674004DFB23 /* Logic in Frameworks */ = {isa = PBXBuildFile; productRef = A632EA362BFA1674004DFB23 /* Logic */; };
+		A632EA412BFA174C004DFB23 /* Colors in Frameworks */ = {isa = PBXBuildFile; productRef = A632EA402BFA174C004DFB23 /* Colors */; };
+		A6F8BB972BFA0F03001CC1BF /* ControlledComponents in Frameworks */ = {isa = PBXBuildFile; productRef = A6F8BB962BFA0F03001CC1BF /* ControlledComponents */; };
+		A6F8BB9A2BFA0F26001CC1BF /* FileTree in Frameworks */ = {isa = PBXBuildFile; productRef = A6F8BB992BFA0F26001CC1BF /* FileTree */; };
+		A6FA8B152BFA18AC00165E06 /* ColorPicker in Frameworks */ = {isa = PBXBuildFile; productRef = A6FA8B142BFA18AC00165E06 /* ColorPicker */; };
 		BA0D85E41FD5AC2000D817C3 /* NSViewHoverExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0D85E31FD5AC2000D817C3 /* NSViewHoverExtensions.swift */; };
 		BA153BCA202B2D1F002A83A5 /* UndoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA153BC9202B2D1F002A83A5 /* UndoManager.swift */; };
 		BA3001761FDB97260003E7D2 /* ShadowStylePickerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3001751FDB97260003E7D2 /* ShadowStylePickerButton.swift */; };
@@ -394,31 +382,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6BBE0F6C212B26C900CEE8C1 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				6BA6E896212F92B0009CD33C /* Witness.framework in Embed Frameworks */,
-				6BBE0F6B212B26C900CEE8C1 /* FileTree.framework in Embed Frameworks */,
-				6B2DC1AE21361C4700679668 /* Colors.framework in Embed Frameworks */,
-				6BC6062C223F191A003E616B /* Logic.framework in Embed Frameworks */,
-				6B2DC1AC21361C4700679668 /* ColorPicker.framework in Embed Frameworks */,
-				6BF894D42214E3DD000CD863 /* Differ.framework in Embed Frameworks */,
-				6B5886872134D6BB00CCA69F /* ControlledComponents.framework in Embed Frameworks */,
-				6B6F19CF2304B49A00E5AC60 /* SwiftGraph.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6BC6062D223F192B003E616B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				6BC60632223F194E003E616B /* Logic.framework.dSYM in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,8 +585,6 @@
 		6B25041621E5510900AE7F97 /* ImageDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDocument.swift; sourceTree = "<group>"; };
 		6B25041721E5510900AE7F97 /* JSONDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONDocument.swift; sourceTree = "<group>"; };
 		6B291338219CAC9600A1DDB4 /* CSRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSRendering.swift; sourceTree = "<group>"; };
-		6B2DC1A921361C4700679668 /* ColorPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ColorPicker.framework; path = Carthage/Build/Mac/ColorPicker.framework; sourceTree = "<group>"; };
-		6B2DC1AA21361C4700679668 /* Colors.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Colors.framework; path = Carthage/Build/Mac/Colors.framework; sourceTree = "<group>"; };
 		6B2DC1B121362E8400679668 /* CoreColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreColorPicker.swift; sourceTree = "<group>"; };
 		6B34149D2258041900CC65D1 /* LogicEditor+ParametersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogicEditor+ParametersView.swift"; sourceTree = "<group>"; };
 		6B3414A722596AA300CC65D1 /* LGCTypeAnnotation+CSType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LGCTypeAnnotation+CSType.swift"; sourceTree = "<group>"; };
@@ -651,7 +618,6 @@
 		6B56ECB221BC5B6D005F43C5 /* FlippedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedView.swift; sourceTree = "<group>"; };
 		6B56ECB421BC6645005F43C5 /* ConfiguredLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfiguredLayer.swift; sourceTree = "<group>"; };
 		6B56ECB621BDC710005F43C5 /* ControlledDropdown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlledDropdown.swift; sourceTree = "<group>"; };
-		6B5886852134D6BB00CCA69F /* ControlledComponents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ControlledComponents.framework; path = Carthage/Build/Mac/ControlledComponents.framework; sourceTree = "<group>"; };
 		6B5886892134D9E800CCA69F /* ColorInspector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorInspector.swift; sourceTree = "<group>"; };
 		6B58868C2134DD3F00CCA69F /* CoreTextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreTextInput.swift; sourceTree = "<group>"; };
 		6B59893E21B86B27004DD3B1 /* RenderableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderableElement.swift; sourceTree = "<group>"; };
@@ -678,7 +644,6 @@
 		6B6E474E2405F86D0067B2FF /* lona-app-install-step2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lona-app-install-step2@2x.png"; sourceTree = "<group>"; };
 		6B6E474F2405F86D0067B2FF /* lona-app-install-step1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lona-app-install-step1@2x.png"; sourceTree = "<group>"; };
 		6B6E47542407201D0067B2FF /* FlippedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippedScrollView.swift; sourceTree = "<group>"; };
-		6B6F19CC2304B47A00E5AC60 /* SwiftGraph.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGraph.framework; path = Carthage/Build/Mac/SwiftGraph.framework; sourceTree = "<group>"; };
 		6B6F19D02307222200E5AC60 /* TemplateFileCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateFileCard.swift; sourceTree = "<group>"; };
 		6B73809322C66E59007534A0 /* TemplateBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateBrowser.swift; sourceTree = "<group>"; };
 		6B73809522C67563007534A0 /* WorkspaceTemplateCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkspaceTemplateCard.swift; sourceTree = "<group>"; };
@@ -709,7 +674,6 @@
 		6BA5BBD82174F2A500F086A7 /* FileNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileNavigator.swift; sourceTree = "<group>"; };
 		6BA5BBDA2174FA2100F086A7 /* FileNavigatorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNavigatorHeader.swift; sourceTree = "<group>"; };
 		6BA5BBDE2176D93D00F086A7 /* TextStyleEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyleEditorViewController.swift; sourceTree = "<group>"; };
-		6BA6E894212F92B0009CD33C /* Witness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Witness.framework; path = Carthage/Build/Mac/Witness.framework; sourceTree = "<group>"; };
 		6BA6E89821307D65009CD33C /* WorkspaceWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceWindowController.swift; sourceTree = "<group>"; };
 		6BA6E89A213080CE009CD33C /* ComponentEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentEditorViewController.swift; sourceTree = "<group>"; };
 		6BA6E89E21324207009CD33C /* ForeignTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignTypes.swift; sourceTree = "<group>"; };
@@ -729,7 +693,6 @@
 		6BB7E2172426DDA2001261A3 /* Logic+Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logic+Documentation.swift"; sourceTree = "<group>"; };
 		6BB7E2192426DF70001261A3 /* Logic+Decoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logic+Decoration.swift"; sourceTree = "<group>"; };
 		6BB7E21B2426E06D001261A3 /* Logic+Suggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logic+Suggestions.swift"; sourceTree = "<group>"; };
-		6BBE0F69212B26C900CEE8C1 /* FileTree.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FileTree.framework; path = Carthage/Build/Mac/FileTree.framework; sourceTree = "<group>"; };
 		6BC2D43C226162C4003A9F63 /* LabeledLogicInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledLogicInput.swift; sourceTree = "<group>"; };
 		6BC2D43E226245F9003A9F63 /* LogicInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicInput.swift; sourceTree = "<group>"; };
 		6BC2D44022624BBB003A9F63 /* LogicInput+CSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogicInput+CSColor.swift"; sourceTree = "<group>"; };
@@ -740,8 +703,6 @@
 		6BC2D4532263D8F2003A9F63 /* LabeledColorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledColorInput.swift; sourceTree = "<group>"; };
 		6BC2D45522640BA9003A9F63 /* LogicInput+CSURLType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LogicInput+CSURLType.swift"; sourceTree = "<group>"; };
 		6BC605CC21F78F240087311A /* LabeledDropdownRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledDropdownRow.swift; sourceTree = "<group>"; };
-		6BC60626223F1878003E616B /* Logic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Logic.framework; path = Carthage/Build/Mac/Logic.framework; sourceTree = "<group>"; };
-		6BC60630223F1947003E616B /* Logic.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = Logic.framework.dSYM; path = Carthage/Build/Mac/Logic.framework.dSYM; sourceTree = "<group>"; };
 		6BCCE31323E762EB004C482E /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		6BCCE33123F322D7004C482E /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		6BCCE33323F34BEE004C482E /* PublishNeedsAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishNeedsAuth.swift; sourceTree = "<group>"; };
@@ -772,7 +733,6 @@
 		6BF4EF44235A695F00548F61 /* WorkspaceWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceWindow.swift; sourceTree = "<group>"; };
 		6BF4EF5C235CF8DC00548F61 /* ShadowSuggestionEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowSuggestionEditor.swift; sourceTree = "<group>"; };
 		6BF7795A22D51A4D009A4119 /* ToolbarStatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatusBar.swift; sourceTree = "<group>"; };
-		6BF894D12214E3CD000CD863 /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/Mac/Differ.framework; sourceTree = "<group>"; };
 		6BFAE60323009AB700B150E2 /* LogicModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicModule.swift; sourceTree = "<group>"; };
 		6BFC4E0521C9C5A10030938B /* CanvasInspector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CanvasInspector.swift; sourceTree = "<group>"; };
 		7949560983378CFD6EC6FFD5 /* Pods_LonaStudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LonaStudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -803,18 +763,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F8BB972BFA0F03001CC1BF /* ControlledComponents in Frameworks */,
 				6BB7E2162426D78B001261A3 /* Defaults in Frameworks */,
+				A6FA8B152BFA18AC00165E06 /* ColorPicker in Frameworks */,
 				0314F4B823F41C54009CE468 /* Apollo in Frameworks */,
+				A632EA412BFA174C004DFB23 /* Colors in Frameworks */,
+				A632EA372BFA1674004DFB23 /* Logic in Frameworks */,
 				6B58EA30242ABDA300491DAF /* NavigationComponents in Frameworks */,
-				6BA6E895212F92B0009CD33C /* Witness.framework in Frameworks */,
-				6BC6062B223F191A003E616B /* Logic.framework in Frameworks */,
 				6B1BE004242AB60500489E08 /* ThemedColor in Frameworks */,
-				6BBE0F6A212B26C900CEE8C1 /* FileTree.framework in Frameworks */,
-				6B5886862134D6BB00CCA69F /* ControlledComponents.framework in Frameworks */,
-				6B2DC1AB21361C4700679668 /* ColorPicker.framework in Frameworks */,
-				6BF894D32214E3DD000CD863 /* Differ.framework in Frameworks */,
-				6B2DC1AD21361C4700679668 /* Colors.framework in Frameworks */,
-				6B6F19CE2304B49A00E5AC60 /* SwiftGraph.framework in Frameworks */,
+				A6F8BB9A2BFA0F26001CC1BF /* FileTree in Frameworks */,
+				A60776572BFA6FC30069237F /* Differ in Frameworks */,
 				783A74CD337C61784E60C467 /* Pods_LonaStudio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1290,17 +1248,8 @@
 		391EE9FEA8350B93A55FBF6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6BC60630223F1947003E616B /* Logic.framework.dSYM */,
-				6BC60626223F1878003E616B /* Logic.framework */,
-				6BF894D12214E3CD000CD863 /* Differ.framework */,
-				6B2DC1A921361C4700679668 /* ColorPicker.framework */,
-				6B2DC1AA21361C4700679668 /* Colors.framework */,
-				6B5886852134D6BB00CCA69F /* ControlledComponents.framework */,
-				6BBE0F69212B26C900CEE8C1 /* FileTree.framework */,
 				7949560983378CFD6EC6FFD5 /* Pods_LonaStudio.framework */,
 				EDA2F7370DB15639E08B399A /* Pods_LonaStudioTests.framework */,
-				6B6F19CC2304B47A00E5AC60 /* SwiftGraph.framework */,
-				6BA6E894212F92B0009CD33C /* Witness.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1544,7 +1493,6 @@
 			buildConfigurationList = 6B0AEFC51EBF74D800F35BBF /* Build configuration list for PBXNativeTarget "LonaStudio" */;
 			buildPhases = (
 				0D07092F8B9DD494FF4F76C4 /* [CP] Check Pods Manifest.lock */,
-				03D5A670243B5491004AC5EB /* [Carthage] Check Cartfile.resolved */,
 				0304A70E23F41E39009A1E82 /* Download GraphQL schema */,
 				6BA89858232717D400AA8F78 /* Code sign Autoupdate */,
 				6B0AEFB01EBF74D700F35BBF /* Sources */,
@@ -1552,7 +1500,6 @@
 				6B0AEFB21EBF74D700F35BBF /* Resources */,
 				E55D09A4201468E2000B193E /* Run SwiftLint */,
 				D6D720124C85F4014A8A455D /* [CP] Embed Pods Frameworks */,
-				6BBE0F6C212B26C900CEE8C1 /* Embed Frameworks */,
 				6BC6062D223F192B003E616B /* CopyFiles */,
 			);
 			buildRules = (
@@ -1565,6 +1512,12 @@
 				6BB7E2152426D78B001261A3 /* Defaults */,
 				6B1BE003242AB60500489E08 /* ThemedColor */,
 				6B58EA2F242ABDA300491DAF /* NavigationComponents */,
+				A6F8BB962BFA0F03001CC1BF /* ControlledComponents */,
+				A6F8BB992BFA0F26001CC1BF /* FileTree */,
+				A632EA362BFA1674004DFB23 /* Logic */,
+				A632EA402BFA174C004DFB23 /* Colors */,
+				A6FA8B142BFA18AC00165E06 /* ColorPicker */,
+				A60776562BFA6FC30069237F /* Differ */,
 			);
 			productName = ComponentStudio;
 			productReference = 6B0AEFB41EBF74D800F35BBF /* LonaStudio.app */;
@@ -1633,6 +1586,12 @@
 				6BB7E2142426D78B001261A3 /* XCRemoteSwiftPackageReference "Defaults" */,
 				6B1BE002242AB60500489E08 /* XCRemoteSwiftPackageReference "ThemedColor" */,
 				6B58EA2E242ABDA300491DAF /* XCRemoteSwiftPackageReference "NavigationComponents" */,
+				A6F8BB942BFA0E47001CC1BF /* XCLocalSwiftPackageReference "../SDK/ColorPicker" */,
+				A6F8BB952BFA0F03001CC1BF /* XCLocalSwiftPackageReference "../SDK/ControlledComponents" */,
+				A6F8BB982BFA0F26001CC1BF /* XCLocalSwiftPackageReference "../SDK/FileTree" */,
+				A632EA352BFA1674004DFB23 /* XCLocalSwiftPackageReference "../SDK/Logic" */,
+				A632EA3F2BFA174C004DFB23 /* XCLocalSwiftPackageReference "../SDK/Colors" */,
+				A60776552BFA6FC30069237F /* XCRemoteSwiftPackageReference "Differ" */,
 			);
 			productRefGroup = 6B0AEFB51EBF74D800F35BBF /* Products */;
 			projectDirPath = "";
@@ -1662,7 +1621,6 @@
 				03B8BFB224444F3B0009E084 /* changeRepoDocsVisibility.graphql in Resources */,
 				03B8BFB024444EB70009E084 /* getRepo.graphql in Resources */,
 				6B8AE8A82432AD6F006E140C /* Element.logic in Resources */,
-				6BC60631223F1947003E616B /* Logic.framework.dSYM in Resources */,
 				307D44182097DDAB004B57F5 /* icon-tab-docs@2x.png in Resources */,
 				307D44152097DDAB004B57F5 /* icon-tab-docs.png in Resources */,
 				6BB7E2112426CCFA001261A3 /* LonaDevice.logic in Resources */,
@@ -1741,25 +1699,6 @@
 			shellPath = /bin/sh;
 			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\n# Download the schemas\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=$API_BASE_URL/graphql GraphQL/lona-schema.json\nif [ ! -z \"$GITHUB_ACCESS_TOKEN\" ]; then\n  \"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=https://api.github.com/graphql GraphQL/github-schema.json --header=\"Authorization: Bearer ${GITHUB_ACCESS_TOKEN}\" --header=\"Accept: application/vnd.github.antiope-preview+json\"\nfi\n\n# Generate GraphQL API code\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/Lona/**/*.graphql --localSchemaFile=\"GraphQL/lona-schema.json\" GraphQL/LonaAPI.swift\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/GitHub/**/*.graphql --localSchemaFile=\"GraphQL/github-schema.json\" GraphQL/GitHubAPI.swift\n";
 		};
-		03D5A670243B5491004AC5EB /* [Carthage] Check Cartfile.resolved */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Carthage] Check Cartfile.resolved";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage outdated --xcode-warnings 2>/dev/null\n";
-			showEnvVarsInLog = 0;
-		};
 		0D07092F8B9DD494FF4F76C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1798,12 +1737,21 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LonaStudioTests/Pods-LonaStudioTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LonaStudioTests/Pods-LonaStudioTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LonaStudioTests/Pods-LonaStudioTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LetsMove.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1833,12 +1781,21 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LonaStudio/Pods-LonaStudio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LonaStudio/Pods-LonaStudio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework",
+				"${BUILT_PRODUCTS_DIR}/MASPreferences/MASPreferences.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LonaStudio/Pods-LonaStudio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LetsMove.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MASPreferences.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2319,7 +2276,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Sparkle",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GITHUB_CLIENT_ID = 47895007495ec2ed6366;
 				GOOGLE_CLIENT_ID = "546773951334-iaqahhpbofeno5t3t72espkhc81ttlev.apps.googleusercontent.com";
@@ -2328,7 +2284,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devinabbott.LonaStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2351,7 +2307,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Pods/Sparkle",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				GITHUB_CLIENT_ID = 2cefa310d0e458ed11c6;
 				GOOGLE_CLIENT_ID = "546773951334-iaqahhpbofeno5t3t72espkhc81ttlev.apps.googleusercontent.com";
@@ -2360,7 +2315,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.devinabbott.LonaStudio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2448,6 +2403,29 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		A632EA352BFA1674004DFB23 /* XCLocalSwiftPackageReference "../SDK/Logic" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SDK/Logic;
+		};
+		A632EA3F2BFA174C004DFB23 /* XCLocalSwiftPackageReference "../SDK/Colors" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SDK/Colors;
+		};
+		A6F8BB942BFA0E47001CC1BF /* XCLocalSwiftPackageReference "../SDK/ColorPicker" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SDK/ColorPicker;
+		};
+		A6F8BB952BFA0F03001CC1BF /* XCLocalSwiftPackageReference "../SDK/ControlledComponents" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SDK/ControlledComponents;
+		};
+		A6F8BB982BFA0F26001CC1BF /* XCLocalSwiftPackageReference "../SDK/FileTree" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../SDK/FileTree;
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCRemoteSwiftPackageReference section */
 		0314F4B623F41C54009CE468 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
@@ -2481,6 +2459,14 @@
 				minimumVersion = 3.1.1;
 			};
 		};
+		A60776552BFA6FC30069237F /* XCRemoteSwiftPackageReference "Differ" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tonyarnold/Differ";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -2503,6 +2489,32 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6BB7E2142426D78B001261A3 /* XCRemoteSwiftPackageReference "Defaults" */;
 			productName = Defaults;
+		};
+		A60776562BFA6FC30069237F /* Differ */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A60776552BFA6FC30069237F /* XCRemoteSwiftPackageReference "Differ" */;
+			productName = Differ;
+		};
+		A632EA362BFA1674004DFB23 /* Logic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logic;
+		};
+		A632EA402BFA174C004DFB23 /* Colors */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Colors;
+		};
+		A6F8BB962BFA0F03001CC1BF /* ControlledComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ControlledComponents;
+		};
+		A6F8BB992BFA0F26001CC1BF /* FileTree */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FileTree;
+		};
+		A6FA8B142BFA18AC00165E06 /* ColorPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6F8BB942BFA0E47001CC1BF /* XCLocalSwiftPackageReference "../SDK/ColorPicker" */;
+			productName = ColorPicker;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

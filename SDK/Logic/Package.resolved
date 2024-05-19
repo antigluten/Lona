@@ -1,0 +1,24 @@
+{
+  "originHash" : "6285b488e0cf219512ef59e55d956c24dd076f398595ab65c3ed6e6099b8c937",
+  "pins" : [
+    {
+      "identity" : "differ",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tonyarnold/Differ",
+      "state" : {
+        "branch" : "main",
+        "revision" : "33c0342d87cdb555a06731011393f1fc5b8200bb"
+      }
+    },
+    {
+      "identity" : "swiftgraph",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/davecom/SwiftGraph",
+      "state" : {
+        "branch" : "master",
+        "revision" : "7ee1dd9e836713b5bb101517314ce63f1ac3a256"
+      }
+    }
+  ],
+  "version" : 3
+}

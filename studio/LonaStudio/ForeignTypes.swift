@@ -6,6 +6,7 @@
 //  Copyright © 2018 Devin Abbott. All rights reserved.
 //
 
+import Foundation
 import Colors
 import ControlledComponents
 import class ColorPicker.ColorWellPicker
